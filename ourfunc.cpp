@@ -1,0 +1,1 @@
+#include <iostream>using namespace std;void simon(int n);int main() {    simon(16);}void simon(int n) {    cout << "simon age is " << n << endl;}
