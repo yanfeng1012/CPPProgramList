@@ -11,9 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0700b98b-3ad0-46e9-8cc6-ed45c24ca222" name="Default Changelist" comment="[MOD] add for list">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outfile.cpp" afterDir="false" />
+    <list default="true" id="0700b98b-3ad0-46e9-8cc6-ed45c24ca222" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/arrfun2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrfun3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrfun4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calling.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protos.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travel.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -26,17 +30,18 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/outfile.cpp">
+        <entry file="file://$PROJECT_DIR$/travel.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="322">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -94,6 +99,12 @@
         <option value="$PROJECT_DIR$/cctypes.cpp" />
         <option value="$PROJECT_DIR$/enum.cpp" />
         <option value="$PROJECT_DIR$/outfile.cpp" />
+        <option value="$PROJECT_DIR$/calling.cpp" />
+        <option value="$PROJECT_DIR$/protos.cpp" />
+        <option value="$PROJECT_DIR$/arrfun2.cpp" />
+        <option value="$PROJECT_DIR$/arrfun3.cpp" />
+        <option value="$PROJECT_DIR$/arrfun4.cpp" />
+        <option value="$PROJECT_DIR$/travel.cpp" />
       </list>
     </option>
   </component>
@@ -130,7 +141,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Cmd" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.gradle.running" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,7 +179,8 @@
       <workItem from="1595808421157" duration="8949000" />
       <workItem from="1595835330568" duration="390000" />
       <workItem from="1595836410080" duration="7865000" />
-      <workItem from="1595895632616" duration="6249000" />
+      <workItem from="1595895632616" duration="12515000" />
+      <workItem from="1595981467972" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="[MOD] add list">
       <created>1595843195583</created>
@@ -205,17 +217,23 @@
       <option name="project" value="LOCAL" />
       <updated>1595902834497</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[MOD] io">
+      <created>1595905597928</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595905597928</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37861000" />
+    <option name="totallyTimeSpent" value="45158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19062833" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25878593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -226,7 +244,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32970297" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4009901" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32970297" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.24455446" />
@@ -286,39 +304,10 @@
     <MESSAGE value="[MOD] update .gitignore" />
     <MESSAGE value="[MOD] add controll" />
     <MESSAGE value="[MOD] enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="[MOD] enum" />
+    <MESSAGE value="[MOD] io" />
+    <option name="LAST_COMMIT_MESSAGE" value="[MOD] io" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getinfo.h" />
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getinfo.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="6" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqrt.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ourfunc.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
@@ -664,6 +653,48 @@
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protos.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrfun2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calling.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrfun4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrfun3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
     </entry>
