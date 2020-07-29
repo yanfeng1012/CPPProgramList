@@ -12,12 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0700b98b-3ad0-46e9-8cc6-ed45c24ca222" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arrfun2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrfun3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrfun4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calling.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protos.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travel.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strctptr.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -37,11 +32,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/travel.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="108">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/strctptr.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/getinfo.cpp" />
         <option value="$PROJECT_DIR$/sqrt.cpp" />
         <option value="$PROJECT_DIR$/ourfunc.cpp" />
@@ -105,6 +111,7 @@
         <option value="$PROJECT_DIR$/arrfun3.cpp" />
         <option value="$PROJECT_DIR$/arrfun4.cpp" />
         <option value="$PROJECT_DIR$/travel.cpp" />
+        <option value="$PROJECT_DIR$/strctptr.cpp" />
       </list>
     </option>
   </component>
@@ -180,7 +187,7 @@
       <workItem from="1595835330568" duration="390000" />
       <workItem from="1595836410080" duration="7865000" />
       <workItem from="1595895632616" duration="12515000" />
-      <workItem from="1595981467972" duration="1031000" />
+      <workItem from="1595981467972" duration="1891000" />
     </task>
     <task id="LOCAL-00001" summary="[MOD] add list">
       <created>1595843195583</created>
@@ -224,14 +231,22 @@
       <option name="project" value="LOCAL" />
       <updated>1595905597928</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[MOD] struct function">
+      <created>1596011704974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596011704974</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45158000" />
+    <option name="totallyTimeSpent" value="46018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25878593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -251,7 +266,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="make" order="3" />
+      <window_info anchor="right" id="make" order="3" weight="0.32960597" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -305,16 +320,10 @@
     <MESSAGE value="[MOD] add controll" />
     <MESSAGE value="[MOD] enum" />
     <MESSAGE value="[MOD] io" />
-    <option name="LAST_COMMIT_MESSAGE" value="[MOD] io" />
+    <MESSAGE value="[MOD] struct function" />
+    <option name="LAST_COMMIT_MESSAGE" value="[MOD] struct function" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ourfunc.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/convert.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
@@ -693,8 +702,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/travel.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="108">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strctptr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
