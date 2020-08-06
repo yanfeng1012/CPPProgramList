@@ -85,6 +85,9 @@
 		<Unit filename="/Users/yanfeng/CLionProjects/CPlusPlusProgramList/main.cpp">
 			<Option target="firstcpp"/>
 		</Unit>
+		<Unit filename="/Users/yanfeng/CLionProjects/CPlusPlusProgramList/stack.h">
+			<Option target="firstcpp"/>
+		</Unit>
 		<Unit filename="/Users/yanfeng/CLionProjects/CPlusPlusProgramList/stock10.h">
 			<Option target="firstcpp"/>
 		</Unit>
