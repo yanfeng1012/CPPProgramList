@@ -3,4 +3,4 @@ project(firstcpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(firstcpp main.cpp)
+add_executable(firstcpp main.cpp stock10.h)
