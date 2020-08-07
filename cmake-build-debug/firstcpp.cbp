@@ -100,6 +100,12 @@
 		<Unit filename="/Users/yanfeng/CLionProjects/CPlusPlusProgramList/stock20.h">
 			<Option target="firstcpp"/>
 		</Unit>
+		<Unit filename="/Users/yanfeng/CLionProjects/CPlusPlusProgramList/tabtenn1.cpp">
+			<Option target="firstcpp"/>
+		</Unit>
+		<Unit filename="/Users/yanfeng/CLionProjects/CPlusPlusProgramList/tabtenn1.h">
+			<Option target="firstcpp"/>
+		</Unit>
 		<Unit filename="/Users/yanfeng/CLionProjects/CPlusPlusProgramList/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

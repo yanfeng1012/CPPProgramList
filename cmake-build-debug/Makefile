@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+tabtenn1.o: tabtenn1.cpp.o
+
+.PHONY : tabtenn1.o
+
+# target to build an object file
+tabtenn1.cpp.o:
+	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/tabtenn1.cpp.o
+.PHONY : tabtenn1.cpp.o
+
+tabtenn1.i: tabtenn1.cpp.i
+
+.PHONY : tabtenn1.i
+
+# target to preprocess a source file
+tabtenn1.cpp.i:
+	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/tabtenn1.cpp.i
+.PHONY : tabtenn1.cpp.i
+
+tabtenn1.s: tabtenn1.cpp.s
+
+.PHONY : tabtenn1.s
+
+# target to generate assembly for a file
+tabtenn1.cpp.s:
+	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/tabtenn1.cpp.s
+.PHONY : tabtenn1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... tabtenn1.o"
+	@echo "... tabtenn1.i"
+	@echo "... tabtenn1.s"
 .PHONY : help
 
 

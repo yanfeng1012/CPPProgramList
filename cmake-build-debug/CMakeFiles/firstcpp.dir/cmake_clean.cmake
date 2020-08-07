@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/firstcpp.dir/main.cpp.o"
+  "CMakeFiles/firstcpp.dir/tabtenn1.cpp.o"
   "firstcpp.pdb"
   "firstcpp"
 )
