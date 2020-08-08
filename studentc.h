@@ -36,9 +36,9 @@ public:
 
     const string &Name() const;
 
-    double &operator[](int i) const;
+    double &operator[](int i);
 
-    double &operator[](int i) const;
+    double operator[](int i) const;
 
     friend istream &operator>>(istream &is, Studentc &stu);
 
