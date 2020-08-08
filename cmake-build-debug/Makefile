@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+studentc.o: studentc.cpp.o
+
+.PHONY : studentc.o
+
+# target to build an object file
+studentc.cpp.o:
+	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/studentc.cpp.o
+.PHONY : studentc.cpp.o
+
+studentc.i: studentc.cpp.i
+
+.PHONY : studentc.i
+
+# target to preprocess a source file
+studentc.cpp.i:
+	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/studentc.cpp.i
+.PHONY : studentc.cpp.i
+
+studentc.s: studentc.cpp.s
+
+.PHONY : studentc.s
+
+# target to generate assembly for a file
+studentc.cpp.s:
+	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/studentc.cpp.s
+.PHONY : studentc.cpp.s
+
 tabtenn1.o: tabtenn1.cpp.o
 
 .PHONY : tabtenn1.o
@@ -189,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... studentc.o"
+	@echo "... studentc.i"
+	@echo "... studentc.s"
 	@echo "... tabtenn1.o"
 	@echo "... tabtenn1.i"
 	@echo "... tabtenn1.s"
