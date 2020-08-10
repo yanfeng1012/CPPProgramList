@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yanfeng/CLionProjects/CPlusPlusProgramList/Worker0.cpp">
+			<Option target="firstcpp"/>
+		</Unit>
+		<Unit filename="/Users/yanfeng/CLionProjects/CPlusPlusProgramList/Worker0.h">
+			<Option target="firstcpp"/>
+		</Unit>
 		<Unit filename="/Users/yanfeng/CLionProjects/CPlusPlusProgramList/main.cpp">
 			<Option target="firstcpp"/>
 		</Unit>

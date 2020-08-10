@@ -22,7 +22,7 @@ private:
 public:
     Studentc() : name("Null Student"), scores() {}//成员初始化语法
 
-    explicit Studentc(const string &s) : name(s), scores() {}
+    explicit Studentc(const string &s) : name(s), scores() {}//显示转换
 
     explicit Studentc(int n) : name("Nully"), scores(n) {}
 

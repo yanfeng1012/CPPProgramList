@@ -123,6 +123,33 @@ firstcpp/fast:
 	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/build
 .PHONY : firstcpp/fast
 
+Worker0.o: Worker0.cpp.o
+
+.PHONY : Worker0.o
+
+# target to build an object file
+Worker0.cpp.o:
+	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/Worker0.cpp.o
+.PHONY : Worker0.cpp.o
+
+Worker0.i: Worker0.cpp.i
+
+.PHONY : Worker0.i
+
+# target to preprocess a source file
+Worker0.cpp.i:
+	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/Worker0.cpp.i
+.PHONY : Worker0.cpp.i
+
+Worker0.s: Worker0.cpp.s
+
+.PHONY : Worker0.s
+
+# target to generate assembly for a file
+Worker0.cpp.s:
+	$(MAKE) -f CMakeFiles/firstcpp.dir/build.make CMakeFiles/firstcpp.dir/Worker0.cpp.s
+.PHONY : Worker0.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... firstcpp"
+	@echo "... Worker0.o"
+	@echo "... Worker0.i"
+	@echo "... Worker0.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
