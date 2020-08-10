@@ -16,7 +16,7 @@ public:
 
     Worker(const std::string &s, long n) : fullname(s), id(n) {}
 
-    virtual ~Worker() {}
+    virtual ~Worker() = 0;
 
     virtual void Set();
 
